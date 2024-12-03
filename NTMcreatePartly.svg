@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" fill="#0f1b27">
+    <defs>
+        <style type="text/css">
+            svg .dev {
+                fill: rgba(255, 255, 0, 0.5);
+                stroke: red;
+            }
+            svg .accents {
+                fill: transparent;
+                stroke: #eee;
+                stroke-width: 2;
+            }
+        </style>
+        <linearGradient id="bg" x1="0%" x2="0%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#e7ebda" />
+            <stop offset="100%" stop-color="#b0b6b2" />
+        </linearGradient>
+    </defs>
+    <!-- the wrench -->
+    <path class="dev" transform="rotate(-45, 288, 307)"
+        d="M 288 307
+        h 84    q 1 0, 1 -1
+        v -19   q 0 -1, -1 -1
+        h -34   q -1 0, -1 -1
+        v -60   q 0 -1, 1 -1
+        h 51    q 1 0, 1 -1
+        v -21   q 0 -1, -1 -1
+        h -50   q -1 0, -1 -1
+        v -22   q 0 -1, 1 -1
+        h 51    q 1 0, 1 -1
+        v -23   q 0 -1, -1 -1
+        h -90.5 q -1 0, -1 1
+        v 11    q 0 1, -1 1
+        h -3.5  q -1 0, -1 1
+        v 120.5 q 0 1, -1 1
+        h -4    q -1 0, -1 1
+        v 17.5  q 0 1, 1 1
+    "/>
+    <path class="accents" transform="rotate(-45, 288, 307)"
+        d="
+        M 293.5 285.5 h 43
+        M 337.5 200.5 h -17.5 v 25 h 16.5
+        M 337.5 178 h -40 v -12.5
+    "/>
+</svg>

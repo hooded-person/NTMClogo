@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img {
+                height: 100%;
+            }
+            .img-overlay-wrap {
+                position: relative;
+                display: inline-block;
+                /* <= shrinks container to image size */
+                transition: transform 150ms ease-in-out;
+            }
+
+            .img-overlay-wrap .underlay {
+                /* <= optional, for responsiveness */
+                display: block;
+                
+                height: auto;
+            }
+
+            .img-overlay-wrap .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="img-overlay-wrap">
+
+            <img class="underlay"
+                src="https://cdn.discordapp.com/attachments/1175474942121357413/1311414816602193991/NTMC_Logo.png?ex=6748c5b9&is=67477439&hm=af0fbc0dce79ca1d9ae9ff19b6da9fa954c6a812be8c19c9b4b5812fb2602391&">
+            <img class="overlay" src="file:///C:/Users/niels/OneDrive/Documenten/code-programing/svgs/NTMcreatePartly.svg">
+
+
+        </div>
+        </body>
+</html>
